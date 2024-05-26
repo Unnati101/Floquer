@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, grey 0%, black 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffffcc;
+    /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.ant-table-wrapper {
+    margin-bottom: 20px;
+}
+
+.ant-table-thead>tr>th {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.ant-table-tbody>tr>td {
+    text-align: center;
+}
+
+.ant-table-tbody>tr:hover>td {
+    background-color: #e8f5e9;
+}
+
+/* Chart styles */
+.chart-container {
+    margin-top: 40px;
+}
+
+/* Title styles */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Table row hover */
+.ant-table-tbody>tr:hover {
+    cursor: pointer;
+    background-color: #f1f8e9 !important;
+}
